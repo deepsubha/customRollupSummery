@@ -6,7 +6,7 @@
 5. Account.Total_Amount__c
 
 # Retrieve Custom Fields: 
-sfdx force:source:retrieve -m CustomField:Contact.Amount__c 
+sfdx force:source:retrieve -m CustomField:Contact.Amount__c <br/>
 sfdx force:source:retrieve -m CustomField:Account.Total_Amount__c 
 
 # Quick Demo link: 
