@@ -1,3 +1,21 @@
+# GOTO Files:
+1. Populate_Custom_Rollup_Summery_Account_Total_Amount
+2. AccountTotalAmount
+3. AccountTotalAmountHelper
+4. Contact.Amount__c
+5. Account.Total_Amount__c
+
+# Retrieve Custom Fields: 
+sfdx force:source:retrieve -m CustomField:Contact.Amount__c 
+sfdx force:source:retrieve -m CustomField:Account.Total_Amount__c 
+
+# Quick Demo link: 
+https://drive.google.com/file/d/1DM8L18VkR0yPuvYHW-h_Y4BzecQVQChp/view
+
+# snapshot: 
+<img width="1434" alt="Screenshot 2023-05-12 at 1 38 42 AM" src="https://github.com/deepsubha/customRollupSummery/assets/35770307/fc1a2002-ed60-47c9-88fa-3c3f19210320">
+-------------------------------------------------------------------------------------------------------------
+
 # Salesforce DX Project: Next Steps
 
 Now that you’ve created a Salesforce DX project, what’s next? Here are some documentation resources to get you started.

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
-    <types>
+    <!--<types>
         <members>*</members>
         <name>ApexClass</name>
     </types>
@@ -31,6 +31,19 @@
     <types>
         <members>*</members>
         <name>StaticResource</name>
+    </types>-->
+    <types>
+        <members>AccountTotalAmountHelper</members>
+        <name>ApexClass</name>
     </types>
+    <types>
+        <members>AccountTotalAmount</members>
+        <name>ApexTrigger</name>
+    </types>
+    <types>
+        <members>Populate_Custom_Rollup_Summery_Account_Total_Amount</members>
+        <name>Flow</name>
+    </types>
+
     <version>56.0</version>
 </Package>
